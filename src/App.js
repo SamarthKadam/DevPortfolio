@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header';
+import { followingDotCursor } from 'cursor-effects';
+import { useEffect } from 'react';
+import Bold from './components/Bold';
+import SmText from './components/SmText';
+import Editor from './components/Editor';
 
 function App() {
+
+  useEffect(() => {
+    followingDotCursor();
+    return () => {
+    };
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <div className="text-green-500" >Hello world</div>
-      </header>
+    <div className="h-[100%] select-none">
+      <div className=' px-[10%] pt-4 bg-[#04090F]'>
+      <Header></Header>
+      <Bold></Bold>
+      <SmText text='<I code beautifully simple things,and I love what I do 🌟/>'></SmText>
+      <Editor></Editor>
+      </div>
     </div>
   );
 }
