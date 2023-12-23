@@ -16,3 +16,7 @@
   .animate-spin-slow {
     animation: spin-slow 3s linear infinite; /* Adjust the time for desired rotation speed */
   }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }

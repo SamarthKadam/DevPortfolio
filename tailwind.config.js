@@ -5,7 +5,8 @@ module.exports = {
     extend: {},
     fontFamily:{
       mono:['Space Mono','monospace'],
-      georama:['Georama','sans-serif']
+      georama:['Georama','sans-serif'],
+      consolata:['Inconsolata','monospace'],
     }
   },
   plugins: [],
