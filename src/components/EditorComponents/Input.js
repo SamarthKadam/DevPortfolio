@@ -35,20 +35,20 @@ export default function Input() {
         />
       </div>
       <div className="bg-[#1C2429] flex flex-col gap-1 text-lg mt-5 h-[100%] w-[100%] px-4 py-4 box-border font-consolata">
-        <div className="text-white">
+        <div className="text-[#E67777]">
           <span className="text-[#656a6e]">1</span>&nbsp;{"<html>"}
         </div>
-        <div className="text-white">
+        <div className="text-[#E67777]">
           <span className="text-[#656a6e]">2</span>&nbsp;&nbsp;&nbsp;{"<head>"}
         </div>
-        <div className="text-white">
+        <div className="text-[#E67777]">
           <span className="text-[#656a6e]">3</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           {"<title>Login Page</title>"}
         </div>
-        <div className="text-white">
+        <div className="text-[#E67777]">
           <span className="text-[#656a6e]">4</span>&nbsp;&nbsp;&nbsp;{"</head>"}
         </div>
-        <div className="text-white">
+        <div className="text-[#E67777]">
           <span className="text-[#656a6e]">5</span>&nbsp;&nbsp;&nbsp;{"<body>"}
         </div>
         <div className="text-white">
@@ -87,11 +87,11 @@ export default function Input() {
           <span className="text-[#656a6e]">13</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           {'</form>'}
         </div>
-        <div className="text-white">
+        <div className="text-[#E67777]">
           <span className="text-[#656a6e]">14</span>&nbsp;&nbsp;&nbsp;
           {'</body>'}
         </div>
-        <div className="text-white">
+        <div className="text-[#E67777]">
           <span className="text-[#656a6e]">15</span>&nbsp;
           {'</html>'}
         </div>

@@ -7,6 +7,8 @@ module.exports = {
       mono:['Space Mono','monospace'],
       georama:['Georama','sans-serif'],
       consolata:['Inconsolata','monospace'],
+      dmSans:['DM Sans', 'sans-serif']
+
     }
   },
   plugins: [],
