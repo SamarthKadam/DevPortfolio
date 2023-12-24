@@ -1,14 +1,13 @@
-import { followingDotCursor } from 'cursor-effects';
-import { useEffect } from 'react';
-import Home from './pages/Home';
-import About from './pages/About';
-import Skills from './pages/Skills';
+import React from "react";
+import { followingDotCursor } from "cursor-effects";
+import { useEffect } from "react";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Skills from "./pages/Skills";
 function App() {
-
   useEffect(() => {
     followingDotCursor();
-    return () => {
-    };
+    return () => {};
   }, []);
 
   return (
@@ -19,5 +18,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
