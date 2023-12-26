@@ -4,6 +4,8 @@ import { useEffect } from "react";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 function App() {
   useEffect(() => {
     followingDotCursor();
@@ -15,6 +17,10 @@ function App() {
       <Home></Home>
       <About></About>
       <Skills></Skills>
+      <div id="projects">
+      <Projects></Projects>
+      </div>
+      <Contact></Contact>
     </div>
   );
 }
