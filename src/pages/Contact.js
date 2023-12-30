@@ -23,7 +23,7 @@ export default function Contact() {
   console.log(innerWidth);
 
   return (
-    <div className=' py-10 bg-[#04090F] h-[65vh] text-white w-[100%] overflow-hidden'>
+    <div id='contacts' className=' py-10 bg-[#04090F] h-[65vh] text-white w-[100%] overflow-hidden'>
       <div style={{'--ht':innerWidth+'px'}} className=' mx-auto w-[var(--ht)] flex justify-center items-center h-[var(--ht)] rounded-full border-[10px] border-[#62B46E]'>
         <div style={{'--ht':innerWidth-125+'px'}} className='w-[var(--ht)] h-[var(--ht)] flex justify-center  rounded-full border-[10px] border-[white]'>
           <div className='mt-14 text-lg'>
@@ -38,8 +38,8 @@ Send me an email or contact me via instant message!</div>
             <a href='https://twitter.com/Samarth69908166'><img className='w-10' src={img3}></img></a>
           </div>
           <div className='mt-4 flex flex-col items-center text-sm'>
-            <div className='flex items-center gap-3'><img className='h-5' src={gmail}></img>samarthskadam14@gmail.com</div>
-            <div className='flex items-center gap-3 mt-1'><img className='h-5' src={phone}></img> +91 9483933877</div>
+            <div className='flex items-center gap-2'><img className='h-5' src={gmail}></img>samarthskadam14@gmail.com</div>
+            <div className='flex items-center gap-2 mt-1'><img className='h-5' src={phone}></img> +91 9483933877</div>
           </div>
           </div>
         </div>

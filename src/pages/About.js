@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="px-[10%] py-20 bg-[#04090F] text-white w-[100%]">
+    <div id="about" className="px-[10%] py-20 bg-[#04090F] text-white w-[100%]">
         <div className="text-left text-4xl font-bold">About</div>
         <div className="w-[50%] mt-4">
           I am a developer based in Karwar, India, currently pursuing my

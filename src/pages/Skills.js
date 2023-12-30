@@ -5,7 +5,7 @@ import ThirdCard from '../components/SkillsComponents/ThirdCard'
 
 export default function Skills() {
   return (
-    <div className='px-[10%] py-20 bg-[#04090F]'>
+    <div id='skills' className='px-[10%] py-20 bg-[#04090F]'>
         <div className="text-center font-bold text-white text-7xl font-dmSans">My Expertise</div>
         <div className='border-2 mt-10 w-[90%] mx-auto border-white grid grid-cols-3'>
           <div className='text-white'><FirstCard></FirstCard></div>
