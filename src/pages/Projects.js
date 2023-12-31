@@ -1,9 +1,9 @@
 import React from 'react'
-import img1 from '../assets/projects/Project1.png'
-import img2 from '../assets/projects/Project2.png'
-import img3 from '../assets/projects/Project3.png'
-import img4 from '../assets/projects/Project4.png'
-import img5 from '../assets/projects/Project5.png'
+import img1 from '../assets/projects/Project1.webp'
+import img2 from '../assets/projects/Project2.webp'
+import img3 from '../assets/projects/Project3.webp'
+import img4 from '../assets/projects/Project4.webp'
+import img5 from '../assets/projects/Project5.webp'
 
 
 export default function Projects() {
