@@ -12,7 +12,7 @@ export default function Header() {
 
 
   return (
-    <div className='bg-[#19202398] mx-auto relative rounded-[2px] flex flex-row px-4 py-6'>
+    <div className='bg-[#19202398] relative mx-auto rounded-[2px] flex flex-row px-4 py-6'>
         <div className='text-xl font-mono text-white w-[35%]'>
         <span className='text-[#62B46E]'>The</span>Programmer
         </div>

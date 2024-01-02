@@ -61,7 +61,7 @@ export default function Input() {
         </div>
         <div className="text-[#70F1A2]">
           <span className="text-[#656a6e]">8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          {'<>'}
+          {'<React.Fragment>'}
         </div>
         <div className="text-[#70F1A2]">
           <span className="text-[#656a6e]">9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -69,7 +69,7 @@ export default function Input() {
         </div>
         <div className="text-[#70F1A2]">
           <span className="text-[#656a6e]">10</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          {'<NavBar />'}
+          {'<NavBar/>'}
         </div>
         <div className="text-[#70F1A2]">
           <span className="text-[#656a6e]">11</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -85,7 +85,7 @@ export default function Input() {
         </div>
         <div className="text-[#70F1A2]">
           <span className="text-[#656a6e]">13</span>&nbsp;&nbsp;&nbsp;&nbsp;
-          {'</>'}
+          {'<React.Fragment/>'}
         </div>
         <div className="text-[white]">
           <span className="text-[#656a6e]">14</span>&nbsp;&nbsp;&nbsp;
