@@ -20,7 +20,6 @@ export default function Contact() {
 
   },[])
 
-  console.log(innerWidth);
 
   return (
     <div id='contacts' className=' py-10 bg-[#04090F] h-[65vh] text-white w-[100%] overflow-hidden'>
@@ -33,13 +32,13 @@ export default function Contact() {
 Send me an email or contact me via instant message!</div>
           </div>
           <div className='flex flex-row gap-4 mt-4 justify-center'>
-            <a href='https://www.linkedin.com/in/samarth-kadam-119a25209/'><img className='w-10' src={img2}></img></a>
-            <a href='https://github.com/SamarthKadam'><img className='w-10' src={img1}></img></a>
-            <a href='https://twitter.com/Samarth69908166'><img className='w-10' src={img3}></img></a>
+            <a href='https://www.linkedin.com/in/samarth-kadam-119a25209/'><img alt='info' className='w-10' src={img2}></img></a>
+            <a href='https://github.com/SamarthKadam'><img alt='info' className='w-10' src={img1}></img></a>
+            <a href='https://twitter.com/Samarth69908166'><img alt='info' className='w-10' src={img3}></img></a>
           </div>
           <div className='mt-4 flex flex-col items-center text-sm'>
-            <div className='flex items-center gap-2'><img className='h-5' src={gmail}></img>samarthskadam14@gmail.com</div>
-            <div className='flex items-center gap-2 mt-1'><img className='h-5' src={phone}></img> +91 9483933877</div>
+            <div className='flex items-center gap-2'><img alt='info' className='h-5' src={gmail}></img>samarthskadam14@gmail.com</div>
+            <div className='flex items-center gap-2 mt-1'><img alt='info' className='h-5' src={phone}></img> +91 9483933877</div>
           </div>
           </div>
         </div>
