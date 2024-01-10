@@ -2,9 +2,9 @@ import React from "react";
 
 export default function About() {
   return (
-    <div id="about" className="px-[10%] py-20 bg-[#04090F] text-white w-[100%]">
-        <div className="text-left text-4xl font-bold">About</div>
-        <div className="w-[50%] mt-4">
+    <div id="about" className="px-[10%] max-[1300px]:px-[5%] py-20 bg-[#04090F] text-white w-[100%]">
+        <div className="text-left text-4xl max-[1300px]:text-3xl max-[992px]:text-2xl font-bold">About</div>
+        <div className="w-[50%] mt-4 max-[992px]:text-sm">
           I am a developer based in Karwar, India, currently pursuing my
           undergraduate degree in Computer Science. My passion lies in honing my
           coding skills and creating applications, websites, and mobile apps. I

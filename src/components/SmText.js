@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
-export default function SmText({text}) {
+export default function SmText({ text }) {
   return (
-    <div className='mt-4'>
-    <div className='text-white text-lg'>{text}</div>
+    <div className="mt-4">
+      <div className="text-white text-lg max-[992px]:text-base">{text}</div>
     </div>
-  )
+  );
 }

@@ -8,7 +8,7 @@ export default function RightDesign() {
     <div className='h-[2px] absolute top-[61.5%] right-[14%] translate-x-[14%] translate-y-[-61.5%] w-44 bg-white'></div>
     <div className='h-[2px] absolute top-[40%] translate-y-[-40%] right-[55%] translate-x-[55%] -rotate-45 w-16 bg-white'></div>
     <div className='h-[2px] absolute top-[20%] right-[17%] translate-x-[17%] translate-y-[-20%] w-20 bg-white'></div>
-    <img className="absolute h-10 left-[87.5%] translate-x-[-87.5%] animate-spin-slow" src={RoundIcon}></img>
+    <img className="absolute h-10 max-[992px]:h-8 max-[992px]:left-[86%] left-[87.5%] translate-x-[-87.5%] animate-spin-slow" src={RoundIcon}></img>
   </div>
   )
 }

@@ -20,21 +20,37 @@ export default function Input() {
   return (
     <div className="flex flex-col w-[100%] h-[100%]">
       <div className="text-white h-10 flex items-center justify-around">
-        <div className="h-10 rounded-lg w-10 border-2 border-white"></div>
+        <div className="h-10 rounded-lg w-10 max-[1140px]:h-8 max-[1140px]:w-8 max-[992px]:h-6 max-[992px]:w-6 max-[992px]:rounded-md  border-2 border-white"></div>
         <Skeleton
           variant="text"
-          sx={{ backgroundColor: "#2B3135", width: "150px", height: "52px" }}
+          sx={{ backgroundColor: "#2B3135", width: "150px", height: "52px",'@media (max-width: 1400px)': {
+            height: "42px",
+            width:'120px' // Adjust the width for screens <= 1400px
+          },'@media (max-width: 992px)': {
+            height: "32px",
+            width:'80px' // Adjust the width for screens <= 1400px
+          }}}
         />
         <Skeleton
           variant="text"
-          sx={{ backgroundColor: "#1F242A", width: "150px", height: "42px" }}
+          sx={{ backgroundColor: "#1F242A", width: "150px", height: "42px",'@media (max-width: 1140px)': {
+            height: "32px",
+            width:'120px' // Adjust the width for screens <= 1400px
+          },'@media (max-width: 992px)': {
+            width:'100px' // Adjust the width for screens <= 1400px
+          } }}
         />
         <Skeleton
           variant="text"
-          sx={{ backgroundColor: "#1F242A", width: "150px", height: "42px" }}
+          sx={{ backgroundColor: "#1F242A", width: "150px", height: "42px", '@media (max-width: 1140px)': {
+            height: "32px",
+            width:'120px' // Adjust the width for screens <= 1400px
+          },'@media (max-width: 992px)': {
+            width:'100px' // Adjust the width for screens <= 1400px
+          } }}
         />
       </div>
-      <div className="bg-[#1C2429] flex flex-col text-lg mt-5 h-[100%] w-[100%] px-4 py-4 box-border font-consolata">
+      <div className="bg-[#1C2429] max-[1300px]:text-base flex flex-col text-lg max-[1140px]:mt-3 max-[992px]:text-sm mt-5 h-[100%] w-[100%] px-4 py-4 box-border font-consolata">
         <div className="text-[#E67777]">
           <span className="text-[#656a6e]">1</span>&nbsp;{"import React from 'react';"}
         </div>

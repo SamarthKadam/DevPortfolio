@@ -14,7 +14,7 @@ export default function Editor() {
         <div className='bg-[#13181E] mx-auto relative rounded-[2px] flex flex-col px-4 py-5 border-b-[1px] border-b-[#808080]'>
         <Header></Header>
        </div>
-       <div className='grid  grid-cols-[1fr,2fr,7fr,3fr]'>
+       <div className='grid  grid-cols-[1fr,2fr,7fr,3fr] max-[1500px]:grid-cols-[1fr,2fr,6fr,2fr] max-[1040px]:grid-cols-[0.6fr,1.4fr,5fr,1.8fr]'>
           <div className='text-white h-[100%] flex items-center flex-col box-border py-3'>
             <BulletPoints></BulletPoints>
           </div>
