@@ -3,8 +3,8 @@ import img from "../../assets/icons/react.svg";
 
 export default function SecondCard() {
   return (
-    <div className="box-border px-6 py-8">
-      <div className="flex flex-row items-center gap-5">
+    <div className="box-border px-6 py-8 max-[880px]:px-4 max-[880px]:py-6">
+      <div className="flex flex-row items-center gap-5 max-[880px]:gap-1">
         <img className="w-10 max-[1014px]:w-8" src={img}></img>
         <div className="font-dmSans text-2xl max-[1300px]:text-xl max-[1014px]:text-lg max-[992px]:text-base relative">
         <div className="relative">

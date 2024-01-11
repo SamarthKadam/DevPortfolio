@@ -23,8 +23,8 @@ export default function Contact() {
 
   return (
     <div id='contacts' className=' py-10 bg-[#04090F] h-[65vh] max-[1040px]:h-[50vh] text-white w-[100%] overflow-hidden'>
-      <div style={{'--ht':innerWidth+'px'}} className=' mx-auto w-[var(--ht)] flex justify-center items-center h-[var(--ht)] rounded-full border-[10px] border-[#62B46E]'>
-        <div style={{'--ht':innerWidth-125+'px'}} className='w-[var(--ht)] h-[var(--ht)] flex justify-center  rounded-full border-[10px] border-[white]'>
+      <div style={{'--ht':innerWidth+'px'}} className=' mx-auto w-[var(--ht)] flex justify-center items-center h-[var(--ht)] rounded-full border-[10px] max-[940px]:border-[5px] border-[#62B46E]'>
+        <div style={{'--ht':innerWidth-75+'px'}} className='w-[var(--ht)] h-[var(--ht)] flex justify-center  rounded-full border-[10px] max-[940px]:border-[5px] border-[white]'>
           <div className='mt-14 text-lg'>
           <div className='w-[50%] max-[1040px]:hidden mx-auto'>
           <div className='font-bold'>Available for freelance opportunities</div>
