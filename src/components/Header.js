@@ -13,10 +13,10 @@ export default function Header() {
 
   return (
     <div className='bg-[#19202398] relative mx-auto rounded-[2px] flex flex-row px-4 py-6'>
-        <div className='text-xl font-mono text-white w-[35%]'>
+        <div className='text-xl font-mono text-white w-[35%] max-[743px]:hidden'>
         <span className='text-[#62B46E]'>The</span>Programmer
         </div>
-        <div className='flex flex-row gap-10'>
+        <div className='flex flex-row gap-10 max-[743px]:gap-5'>
             <div  className='text-white text-sm cursor-pointer '>HOME</div>
             <div onClick={handleClickScroll.bind(this,'about')} className='text-[#BDBDBD] text-sm cursor-pointer '>ABOUT</div>
             <div onClick={handleClickScroll.bind(this,'skills')} className='text-[#BDBDBD]  text-sm cursor-pointer'>EXPERTISE</div>

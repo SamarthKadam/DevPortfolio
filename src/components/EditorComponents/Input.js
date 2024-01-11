@@ -50,7 +50,7 @@ export default function Input() {
           } }}
         />
       </div>
-      <div className="bg-[#1C2429] max-[1300px]:text-base flex flex-col text-lg max-[1140px]:mt-3 max-[992px]:text-sm mt-5 h-[100%] w-[100%] px-4 py-4 box-border font-consolata">
+      <div className="bg-[#1C2429] max-[1300px]:text-base flex flex-col text-lg max-[1140px]:mt-3 max-[992px]:text-sm max-[742px]:text-xs mt-5 h-[100%] w-[100%] px-4 py-4 box-border font-consolata">
         <div className="text-[#E67777]">
           <span className="text-[#656a6e]">1</span>&nbsp;{"import React from 'react';"}
         </div>
