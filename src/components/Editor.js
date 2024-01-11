@@ -10,7 +10,7 @@ export default function Editor() {
   return (
     <div>
       <Line></Line>
-      <div className="w-[100%] m h-[100%] border-t-4 border-r-2 max-[742px]:mt-10 border-l-2 border-l-[#999999] border-r-[#999999] border-white">
+      <div className="w-[100%] m h-[100%] border-t-4 border-r-2 max-[742px]:mt-10 border-l-2 max-[634px]:border-t-2 max-[634px]:border-l-[1px] max-[634px]:border-r-[1px] border-l-[#999999] border-r-[#999999] border-white">
         <div className="bg-[#13181E] mx-auto relative rounded-[2px] flex flex-col px-4 py-5 max-[742px]:px-2 max-[742px]:py-3 border-b-[1px] border-b-[#808080]">
           <Header></Header>
         </div>
@@ -24,7 +24,7 @@ export default function Editor() {
           <div className="h-[100%] text-white py-3">
             <Input></Input>
           </div>
-          <div className="text-white py-3">
+          <div className="text-white py-3 max-[502px]:py-5">
             <Output></Output>
           </div>
         </div>

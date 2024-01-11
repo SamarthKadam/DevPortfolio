@@ -17,11 +17,11 @@ export default function Header() {
         <span className='text-[#62B46E]'>The</span>Programmer
         </div>
         <div className='flex flex-row gap-10 max-[743px]:gap-5'>
-            <div  className='text-white text-sm cursor-pointer '>HOME</div>
-            <div onClick={handleClickScroll.bind(this,'about')} className='text-[#BDBDBD] text-sm cursor-pointer '>ABOUT</div>
-            <div onClick={handleClickScroll.bind(this,'skills')} className='text-[#BDBDBD]  text-sm cursor-pointer'>EXPERTISE</div>
-            <div onClick={handleClickScroll.bind(this,'projects')} className='text-[#BDBDBD]  text-sm cursor-pointer '>WORK</div>
-            <div onClick={handleClickScroll.bind(this,'contacts')} className='text-[#BDBDBD]   text-sm cursor-pointer'>CONTACTS</div>
+            <div  className='text-white text-sm cursor-pointer  max-[634px]:text-xs'>HOME</div>
+            <div onClick={handleClickScroll.bind(this,'about')} className='text-[#BDBDBD] text-sm max-[634px]:text-xs cursor-pointer '>ABOUT</div>
+            <div onClick={handleClickScroll.bind(this,'skills')} className='text-[#BDBDBD]  text-sm max-[634px]:text-xs cursor-pointer'>EXPERTISE</div>
+            <div onClick={handleClickScroll.bind(this,'projects')} className='text-[#BDBDBD]  text-sm max-[634px]:text-xs cursor-pointer '>WORK</div>
+            <div onClick={handleClickScroll.bind(this,'contacts')} className='text-[#BDBDBD]   text-sm max-[634px]:text-xs cursor-pointer'>CONTACTS</div>
         </div>
     </div>
   )

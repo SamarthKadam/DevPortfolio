@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function OutputConsole() {
   return (
-    <div className='mt-5 mx-4  h-[100%] relative'>
+    <div className='mt-5 mx-4  max-[634px]:mx-2 h-[100%] relative'>
         <div className="border-2 h-[85%] border-[#3434]">
             <div className='h-6 max-[900px]:h-4 max-[632px]:h-3 max-[632px]:gap-1 bg-[#ffffff] border-bottom-2 flex items-center gap-2 px-2'>
              <div className='bg-[#D9846B] h-3 w-3 max-[992px]:h-2 max-[992px]:w-2 max-[632px]:h-1 max-[632px]:w-1 rounded-full'></div>
