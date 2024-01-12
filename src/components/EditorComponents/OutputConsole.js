@@ -9,7 +9,7 @@ export default function OutputConsole() {
              <div className='bg-[#D6BD74] h-3 w-3 max-[992px]:h-2 max-[992px]:w-2 max-[632px]:h-1 max-[632px]:w-1 rounded-full'></div>
              <div className='bg-[#9DCF9D] h-3 w-3 max-[992px]:h-2 max-[992px]:w-2 max-[632px]:h-1 max-[632px]:w-1 rounded-full'></div>
             </div>
-        <div className='bg-[#3A4142] h-full flex gap-3 max-[992px]:gap-2 flex-col py-3 px-2'>
+        <div className='bg-[#3A4142] h-full flex gap-3 max-[992px]:gap-2 max-[400px]:py-2 max-[400px]:px-1 flex-col py-3 px-2'>
         <div className='bg-[#FF747B] h-2 max-[992px]:h-1 w-[40%] rounded-md'></div>
         <div className='flex gap-1'>
         <div className='bg-[#75D2F0] h-2 max-[992px]:h-1 w-[40%] rounded-md'></div>
