@@ -1,5 +1,4 @@
 import React from "react";
-
 export default function About() {
   return (
     <div id="about" className="px-[10%] max-[1300px]:px-[5%] py-20 max-[455px]:py-10 bg-[#04090F] text-white w-[100%]">

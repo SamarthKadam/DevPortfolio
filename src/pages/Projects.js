@@ -20,7 +20,7 @@ export default function Projects() {
         <a target="_blank" className='max-[940px]:flex max-[940px]:justify-end'  rel="noreferrer" href='https://github.com/SamarthKadam/fonkeyType'><img alt='Project' className='h-72 rounded-xl max-[1500px]:h-64 max-[1140px]:h-52 max-[455px]:h-44' src={img2}></img> </a>
         </div>
         <div className=' flex gap-4 max-[940px]:flex-col  mt-10 overflow-auto'>
-        <a target="_blank" rel="noreferrer" className='max-[940px]:flex max-[940px]:justify-end' href='https://github.com/SamarthKadam/PomodoroApp-RN'><img alt='Project' className='h-72 rounded-xl max-[1500px]:h-64 max-[1140px]:h-52 max-[455px]:h-44' src={img4}></img></a> 
+        <a target="_blank" rel="noreferrer" className='max-[940px]:flex' href='https://github.com/SamarthKadam/PomodoroApp-RN'><img alt='Project' className='h-72 rounded-xl max-[1500px]:h-64 max-[1140px]:h-52 max-[455px]:h-44' src={img4}></img></a> 
         <a target="_blank" className='max-[940px]:flex max-[940px]:justify-end'  rel="noreferrer" href='https://github.com/SamarthKadam/NewsApp-RNCLI'>
         <img alt='Project' className='h-72 rounded-xl max-[1500px]:h-64 max-[1140px]:h-52 max-[455px]:h-44' src={img5}></img> 
         </a>
