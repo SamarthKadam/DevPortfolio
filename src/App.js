@@ -1,5 +1,5 @@
 import React from "react";
-import { followingDotCursor } from "cursor-effects";
+import { fairyDustCursor } from "cursor-effects";
 import { useEffect } from "react";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -8,7 +8,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 function App() {
   useEffect(() => {
-    followingDotCursor();
+    fairyDustCursor();
     return () => {};
   }, []);
 
