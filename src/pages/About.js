@@ -1,9 +1,7 @@
 import React from "react";
-import { MotionAnimate } from 'react-motion-animate'
 export default function About() {
   return (
     <div id="about" className="px-[10%] max-[1300px]:px-[5%] py-20 max-[455px]:py-10 bg-[#04090F] text-white w-[100%]">
-      <MotionAnimate animation='fadeInUp' >
         <div className="text-left text-4xl max-[1300px]:text-3xl max-[992px]:text-2xl font-bold">About</div>
         <div className="w-[50%] max-[634px]:w-[75%] mt-4 max-[992px]:text-sm max-[634px]:text-xs max-[455px]:text-[10px]">
           I am a developer based in Karwar, India, currently pursuing my
@@ -14,7 +12,6 @@ export default function About() {
           platforms. I am dedicated to self-improvement, persistently working
           independently to enhance and refine my skills.
         </div>
-    </MotionAnimate>
     </div>
   );
 }
