@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Bold from '../components/Bold'
 import SmText from '../components/SmText'
 import Editor from '../components/Editor'
+import { MotionAnimate } from 'react-motion-animate'
 
 export default function Home() {
   return (
@@ -10,7 +11,9 @@ export default function Home() {
     <Header></Header>
     <Bold></Bold>
     <SmText text='<I code beautifully simple things,and I love what I do 🌟/>'></SmText>
+    <MotionAnimate animation='fadeInUp'>
     <Editor></Editor>
+    </MotionAnimate>   
     </div>
   )
 }

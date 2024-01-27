@@ -5,11 +5,13 @@ import img3 from '../assets/projects/Project3.webp'
 import img4 from '../assets/projects/Project4.webp'
 import img5 from '../assets/projects/Project5.webp'
 import img6 from '../assets/projects/Project6.webp'
+import { MotionAnimate } from 'react-motion-animate'
 
 
 export default function Projects() {
   return (
     <div id="projects" className='px-[10%] max-[1300px]:px-[5%]  py-20 max-[455px]:py-10 bg-[#04090F] text-white w-[100%]'>
+      <MotionAnimate>
         <div className="font-bold text-4xl max-[1300px]:text-3xl max-[992px]:text-2xl">Projects</div>
         <div className='flex max-[940px]:flex-col mt-10 gap-4'>
           <a target="_blank" rel="noreferrer" href='https://github.com/SamarthKadam/ChatBox'><img alt='Project' className='h-72 max-[1500px]:h-64 max-[1140px]:h-52 max-[455px]:h-44 rounded-xl' src={img1}></img></a>
@@ -25,6 +27,7 @@ export default function Projects() {
         <img alt='Project' className='h-72 rounded-xl max-[1500px]:h-64 max-[1140px]:h-52 max-[455px]:h-44' src={img5}></img> 
         </a>
         </div>
+      </MotionAnimate>
     </div>
   )
 }
