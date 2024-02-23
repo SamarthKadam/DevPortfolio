@@ -35,7 +35,7 @@ export default function Projects({ setModal, setProjectNo }) {
             className="h-72 max-[1500px]:h-64 max-[1140px]:h-52 max-[455px]:h-44 rounded-xl"
             src={img1}
           ></img>
-          <div className="absolute bottom-0 max-[1150px]:hidden  left-0">
+          <div className="absolute bottom-0 max-[800px]:hidden  left-0">
             <Tooltip title="View Repository">
               <IconButton
                 onClick={navigateToLinksHandler.bind(
@@ -59,7 +59,7 @@ export default function Projects({ setModal, setProjectNo }) {
             className="h-72 rounded-xl max-[1500px]:h-64 max-[1140px]:h-52 max-[455px]:h-44"
             src={img6}
           ></img>
-          <div className="absolute bottom-0 max-[1150px]:hidden ">
+          <div className="absolute bottom-0 max-[800px]:hidden ">
             <Tooltip title="View Repository">
               <IconButton
                 onClick={navigateToLinksHandler.bind(
@@ -85,7 +85,7 @@ export default function Projects({ setModal, setProjectNo }) {
             className="h-72 rounded-xl max-[1500px]:h-64 max-[1140px]:h-52 max-[455px]:h-44"
             src={img3}
           ></img>
-          <div className="absolute bottom-0 max-[1150px]:hidden ">
+          <div className="absolute bottom-0 max-[800px]:hidden ">
             <Tooltip title="View Repository">
               <IconButton
                 onClick={navigateToLinksHandler.bind(
@@ -109,7 +109,7 @@ export default function Projects({ setModal, setProjectNo }) {
             className="h-72 rounded-xl max-[1500px]:h-64 max-[1140px]:h-52 max-[455px]:h-44"
             src={img2}
           ></img>
-          <div className="absolute bottom-0 max-[1150px]:hidden ">
+          <div className="absolute bottom-0 max-[800px]:hidden ">
             <Tooltip title="View Repository">
               <IconButton
                 onClick={navigateToLinksHandler.bind(
@@ -135,7 +135,7 @@ export default function Projects({ setModal, setProjectNo }) {
             className="h-72 rounded-xl max-[1500px]:h-64 max-[1140px]:h-52 max-[455px]:h-44"
             src={img4}
           ></img>
-          <div className="absolute bottom-0 max-[1150px]:hidden ">
+          <div className="absolute bottom-0 max-[800px]:hidden ">
             <Tooltip title="View Repository">
               <IconButton
                 onClick={navigateToLinksHandler.bind(
@@ -159,7 +159,7 @@ export default function Projects({ setModal, setProjectNo }) {
             className="h-72 rounded-xl max-[1500px]:h-64 max-[1140px]:h-52 max-[455px]:h-44"
             src={img5}
           ></img>
-          <div className="absolute bottom-0 max-[1150px]:hidden ">
+          <div className="absolute bottom-0 max-[800px]:hidden ">
             <Tooltip title="View Repository">
               <IconButton
                 onClick={navigateToLinksHandler.bind(

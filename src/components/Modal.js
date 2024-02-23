@@ -50,7 +50,7 @@ const ModalHandler = (fn) => {
 const Modal = ({ children, setModal, projectNo }) => {
   const ActiveProject = RenderImages[projectNo - 1];
   return (
-    <div className="absolute px-[10%] overflow-hidden pt-8 max-[1300px]:px-[5%]   z-50 h-[100vh] w-[100vw] bg-opacity-50 backdrop-blur-md rounded-lg p-4">
+    <div className="absolute max-[800px]:hidden px-[10%] overflow-hidden pt-8 max-[1300px]:px-[5%]   z-50 h-[100vh] w-[100vw] bg-opacity-50 backdrop-blur-md rounded-lg p-4">
       <div className="h-[5%] mb-1  flex justify-end ">
         <IconButton onClick={ModalHandler.bind(this, setModal)}>
           <CancelIcon fontSize="large" className="text-white"></CancelIcon>
@@ -64,7 +64,7 @@ const Modal = ({ children, setModal, projectNo }) => {
                 key={ind}
                 className="each-fade flex justify-center items-center"
               >
-                <img className="h-[85vh] rounded-md" src={val} />
+                <img className="h-[85vh] max-[1150px]:h-[75vh] max-[1050px]:h-[58vh] rounded-md" src={val} />
               </div>
             );
           })}
