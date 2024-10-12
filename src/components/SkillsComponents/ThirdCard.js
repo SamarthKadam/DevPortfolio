@@ -26,7 +26,7 @@ export default function ThirdCard() {
         </div>
       </div>
       <div className="mt-4 font-mono text-[#5E5E60] max-[992px]:text-sm max-[455px]:text-[10px] font-bold">
-        {"</Text>"}
+        {"<Text>"}
       </div>
     </div>
   );
