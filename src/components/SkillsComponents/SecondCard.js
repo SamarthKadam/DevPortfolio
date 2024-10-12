@@ -18,7 +18,7 @@ export default function SecondCard() {
       <div className="flex justify-end mt-2">
         <div className="w-[95%] font-georama box-border px-4 max-[502px]:px-1 border-l-2 text-lg max-[1014px]:text-base max-[992px]:text-sm max-[634px]:text-xs max-[502px]:text-[10px] max-[455px]:text-[8px]  border-[#5E5E60]">Passionate about UI/UX. Over 4 years of development experience in HTML, CSS, JS, Tailwind, React and NextJS frameworks.</div>
       </div>
-      <div className="mt-4 font-mono text-[#5E5E60] max-[992px]:text-sm max-[455px]:text-[10px] font-bold">{'</h3>'}</div>
+      <div className="mt-4 font-mono text-[#5E5E60] max-[992px]:text-sm max-[455px]:text-[10px] font-bold">{'<h3>'}</div>
     </div>
   );
 }
